@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    font-size: 100%;
+}
+h1{
+    margin-top: 50px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+
+}
+h3{
+    color: #11999E;
+}
+.pro{
+    text-decoration: underline;
+}
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    height: auto;
+    padding-bottom: 50px;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding-bottom: 20px;
+    height: 150px;
+    padding-top: 50px;
+}
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top: 50px; 
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+.hello{
+    border-radius: 100%;
+}
+.img1{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+.img2{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+.about{
+    color: #40514E;
+    width: 30%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    border-color: #d0e0e0;
+    width: 10%;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.footer-link{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #EAF6F6;
+}
+.name{
+    padding: 20px 0;
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+.p4{
+    width: 40%;
+    margin: 40px auto 60px;
+}
